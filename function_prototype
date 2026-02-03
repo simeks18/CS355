@@ -1,0 +1,21 @@
+//In class function-prototype demo on 2.3.2026
+
+#include <stdio.h>
+#include <math.h>
+
+//Function declaration
+//Later I will be writing and using a function later
+
+int area_of_a_rectangle(int, int);
+
+void main() {
+int area_square = area_of_a_rectangle(5,10);
+printf("Area: %d \n", area_square);
+}
+
+int area_of_a_rectangle(int length, int width){
+int area = length * width;
+return area;
+
+
+}
